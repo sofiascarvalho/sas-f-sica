@@ -717,6 +717,101 @@ hr {
     color: purple;
     padding: 0;
 }
+.main3 {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #E9DEF2;
+    min-height: calc(100vh - 170px);
+}
+
+#feedback1{
+    margin-left: 400px;
+}
+
+#feedback {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    text-align: center;
+}
+
+#feedback h1 {
+    font-size: 3rem;
+    color: purple;
+}
+
+#menina-feedback {
+    margin: 20px 0;
+}
+
+#menina-feedback img {
+    width: 150px;
+}
+
+#feedback p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+#feedback-form {
+    margin-top: 20px;
+}
+
+#feedback-form textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1rem;
+}
+
+#feedback-form button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#feedback-form button:hover {
+    background-color: #a347ba;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #d5b1f3;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: underline;
+    margin-left: 10px;
+}
+
+footer button {
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+footer button:hover {
+    background-color: #E9DEF2;
+}
 
 
 @media (max-width: 960px) {
