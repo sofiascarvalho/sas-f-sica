@@ -498,6 +498,227 @@ hr {
     margin-left: -90px;
 }
 
+.main2 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    padding-top: 150px; /* Espaço para o menu fixo */
+}
+
+.retangulo {
+    background-color: #E9DEF2;
+    color: white;
+    width: 100%;
+    max-width: 1800px;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.retangulo h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.retangulo p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* Estilo das caixas de texto */
+.text-box {
+    background-color: white;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin-bottom: 20px; /* Espaçamento entre as caixas */
+}
+
+
+/* Estilos específicos para cada caixa de texto */
+.text-box-um {
+    background-color: #f046d01e;
+    width: 1000px;
+}
+.text-box-um h2{
+    color: purple;
+}
+.text-box-um img{
+    width: 130px;
+}
+.text-box-um p{
+    color: rgb(255, 255, 255);
+}
+
+.text-box-dois {
+    background-color: #f046d01e;
+    width: 900px;
+    margin-left: 800px;
+}
+.text-box-dois h2{
+    color: purple;
+}
+.text-box-dois p{
+    color: rgb(254, 254, 254);
+}
+
+
+.text-box-tres {
+    background-color:  #f046d01e;
+    width: 900px;
+    
+}
+.text-box-tres h2{
+    color: purple;
+}
+.text-box-tres p{
+    color: white;
+}
+.text-box-tres img{
+    width: 130px;
+}
+
+.text-box-quatro {
+    background-color: #f046d01e;
+    width: 900px;
+    margin-left: 800px;
+}
+.text-box-quatro h2{
+    color: purple;
+}
+.text-box-quatro{
+    color: white;
+}
+.text-box-quatro img{
+    width: 130px;
+}
+
+.text-box-cinco {
+    background-color:  #f046d01e;
+    width: 900px;
+}
+.text-box-cinco h2{
+    color: purple;
+}
+.text-box-cinco p{
+    color: white;
+}
+.text-box-cinco img{
+    width: 130px;
+}
+
+.text-box-seis {
+    background-color: #f046d01e;
+    width: 900px;
+    margin-left: 800px;
+}
+.text-box-seis h2{
+    color: purple;
+}
+.text-box-seis p{
+    color: white;
+}
+.text-box-seis img{
+    width: 130px;
+}
+.text-box-sete {
+    background-color:  #f046d01e;
+    width: 900px;
+}
+.text-box-sete h2{
+    color: purple;
+}
+.text-box-sete p{
+    color: white;
+}
+.main1 {
+    padding: 20px;
+    margin-top: 40px;
+}
+
+#glossario div {
+    background-color: #E9DEF2;
+    border-radius: 10px;
+    align-items: center;
+    padding: 3px;
+    height: 45vw;
+}
+
+#glossario h1 {
+    font-size: 60px;
+    margin-top: 70px;
+    margin-left: 15px;
+}
+
+#mecanica,
+#termologia,
+#optica,
+#eletro {
+    margin-bottom: 20px;
+    background-color: #e2c1f4;
+    padding: 20px;
+    border-radius: 8px;
+    margin-left: 70px;
+    margin-right: 60vh;
+    display: flex;
+}
+
+#mecanica p,
+#termologia p,
+#optica p,
+#eletro p {
+    font-size: 16px;
+    width: 1000px;
+}
+
+#mecanica img,
+#termologia img,
+#optica img,
+#eletro img {
+    width: 5vw;
+}
+
+#mecanica:hover,
+#termologia:hover,
+#optica:hover,
+#eletro:hover {
+    background-color: #5e2b6b;
+    transition: background-color 1s;
+}
+
+#termologia {
+    margin-top: 20px;
+}
+
+#optica {
+    margin-top: 20px;
+}
+
+#eletro {
+    margin-top: 20px;
+}
+
+.grupo1 {
+    height: 10vh;
+    justify-content: center;
+}
+
+#mecanica h2,
+#termologia h2,
+#optica h2,
+#eletro h2 {
+    color: purple;
+    padding: 0;
+}
+
+
 @media (max-width: 960px) {
     header nav ul {
         display: flex;
