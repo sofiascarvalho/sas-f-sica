@@ -9,7 +9,7 @@ Site informativo sobre a matéria Física. O intuito desse projeto é colocar em
 
 ---
 
-##Tecnologias Utilizadas
+## Tecnologias Utilizadas
 - HTML
 - CSS
 - Markdown
