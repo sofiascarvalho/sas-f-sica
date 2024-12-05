@@ -991,6 +991,146 @@ footer button:hover {
         margin-right: auto;
         text-align: center;
     }
+
+
+        .main1 {
+        padding: 20px;
+        margin-top: 40px;
+    }
+    #glossario div {
+        background-color: #E9DEF2;
+        border-radius: 20px;
+        align-items: center;
+        padding: 3px;
+        height: 100vw;
+        width: 74vw;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin-left: 1vw;
+    }
+    #glossario h1 {
+        font-size: 60px;
+        margin-top: 20px;
+        margin-left: 2px;
+    }
+    #mecanica,
+    #termologia,
+    #optica,
+    #eletro {
+        margin-top: 2vh;
+        margin-bottom: 20px;
+        background-color: #e2c1f4;
+        padding: 20px;
+        border-radius: 8px;
+        margin-left: 104px;
+        margin-right: 60vh;
+        width: 40vw;
+        display: flex;
+    }
+    #mecanica p,
+    #termologia p,
+    #optica p,
+    #eletro p {
+        font-size: 10px;
+        width: 300px;
+        margin-top: 1vw;
+        margin-right: 2vw;
+    }
+    #mecanica img,
+    #termologia img,
+    #optica img,
+    #eletro img {
+        width: 5vw;
+        margin-top: 1vh;
+        margin-right: 2vw;
+    }
+    #mecanica:hover,
+    #termologia:hover,
+    #optica:hover,
+    #eletro:hover {
+        background-color: #5e2b6b;
+        transition: background-color 1s;
+    }    
+    #mecanica h2,
+    #termologia h2,
+    #optica h2,
+    #eletro h2 {
+        color: purple;
+        padding: 0;
+        text-align: end;
+        font-size: 15px;
+    }
+
+
+    #feedback1{
+        margin-left: 15px;
+    }
+    
+    #feedback h1 {
+        font-size: 3rem;
+        color: purple;
+    }
+    
+    #menina-feedback {
+        margin: 20px 0;
+    }
+    
+    #menina-feedback img {
+        width: 100px;
+    }
+    
+    #feedback p {
+        font-size: 1.2rem;
+        color: #333;
+    }
+    
+    #feedback-form {
+        margin-top: 20px;
+    }
+    
+    #feedback-form textarea {
+        width: 90%;
+        height: 100px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-family: "Quicksand", sans-serif;
+        font-size: 1rem;
+    }
+    
+    #feedback-form button {
+        margin-top: 10px;
+        padding: 10px 20px;
+        background-color: purple;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    #feedback-form button:hover {
+        background-color: #a347ba;
+    }
+
+
+    footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #d5b1f3;
+        color: white;
+        position: fixed;
+        bottom: 0;
+        width: 58.2%;
+    }    
+    footer button {
+        background-color: purple;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-left: 10px;
+        margin-top: 1vh;
+    }
 }
 
 /* Responsividade para celulares */
@@ -1226,5 +1366,146 @@ footer button:hover {
     .imagem-ilustrativa,
     .imagem-ilustrativa1 {
         display: none; 
+    }
+
+
+
+    .main1 {
+        padding: 20px;
+        margin-top: 40px;
+    }
+    #glossario div {
+        background-color: #E9DEF2;
+        border-radius: 20px;
+        align-items: center;
+        padding: 3px;
+        height: 110vw;
+        width: 110vw;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin-left: 70vw;
+    }
+    #glossario h1 {
+        font-size: 20px;
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    #mecanica,
+    #termologia,
+    #optica,
+    #eletro {
+        margin-top: 2vh;
+        margin-bottom: 20px;
+        background-color: #e2c1f4;
+        padding: 20px;
+        border-radius: 8px;
+        margin-left: 52px;
+        margin-right: 60vh;
+        width: 80vw;
+        display: flex;
+    }
+    #mecanica p,
+    #termologia p,
+    #optica p,
+    #eletro p {
+        font-size: 6px;
+        width: 200px;
+        margin-top: 1vw;
+        margin-right: 2vw;
+    }
+    #mecanica img,
+    #termologia img,
+    #optica img,
+    #eletro img {
+        width: 3vw;
+        margin-top: 1vh;
+        margin-right: 2vw;
+    }
+    #mecanica:hover,
+    #termologia:hover,
+    #optica:hover,
+    #eletro:hover {
+        background-color: #5e2b6b;
+        transition: background-color 1s;
+    }    
+    #mecanica h2,
+    #termologia h2,
+    #optica h2,
+    #eletro h2 {
+        color: purple;
+        padding: 0;
+        text-align: end;
+        font-size: 12px;
+    }
+
+
+    #feedback1{
+        margin-left: 275px;
+    }
+    
+    #feedback h1 {
+        font-size: 3rem;
+        color: purple;
+    }
+    
+    #menina-feedback {
+        margin: 20px 0;
+    }
+    
+    #menina-feedback img {
+        width: 100px;
+    }
+    
+    #feedback p {
+        font-size: 1.2rem;
+        color: #333;
+    }
+    
+    #feedback-form {
+        margin-top: 20px;
+    }
+    
+    #feedback-form textarea {
+        width: 90%;
+        height: 100px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-family: "Quicksand", sans-serif;
+        font-size: 1rem;
+    }
+    
+    #feedback-form button {
+        margin-top: 10px;
+        padding: 10px 20px;
+        background-color: purple;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    #feedback-form button:hover {
+        background-color: #a347ba;
+    }
+
+
+    footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #d5b1f3;
+        color: white;
+        position: fixed;
+        bottom: 0;
+        width: 60%;
+    }    
+    footer button {
+        background-color: purple;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-left: 10px;
+        margin-top: 1vh;
     }
 }
